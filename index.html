@@ -56,11 +56,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/Builds.loader.js";
+      var loaderUrl = buildUrl + "/sudoku_test.loader.js";
       var config = {
-        dataUrl: buildUrl + "/Builds.data",
-        frameworkUrl: buildUrl + "/Builds.framework.js",
-        codeUrl: buildUrl + "/Builds.wasm",
+        dataUrl: buildUrl + "/sudoku_test.data",
+        frameworkUrl: buildUrl + "/sudoku_test.framework.js",
+        codeUrl: buildUrl + "/sudoku_test.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "Sudoku",
@@ -97,7 +97,7 @@
         canvas.style.height = "600px";
       }
 
-      canvas.style.background = "url('" + buildUrl + "/Builds.jpg') center / cover";
+      canvas.style.background = "url('" + buildUrl + "/sudoku_test.jpg') center / cover";
       loadingBar.style.display = "block";
 
       var script = document.createElement("script");
