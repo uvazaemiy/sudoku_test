@@ -56,15 +56,15 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/Sudoku.loader.js";
+      var loaderUrl = buildUrl + "/sudoku_test.loader.js";
       var config = {
-        dataUrl: buildUrl + "/Sudoku.data",
-        frameworkUrl: buildUrl + "/Sudoku.framework.js",
-        codeUrl: buildUrl + "/Sudoku.wasm",
+        dataUrl: buildUrl + "/sudoku_test.data",
+        frameworkUrl: buildUrl + "/sudoku_test.framework.js",
+        codeUrl: buildUrl + "/sudoku_test.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "Sudoku",
-        productVersion: "1.4",
+        productVersion: "1.4.32",
         showBanner: unityShowBanner,
       };
 
@@ -94,10 +94,10 @@
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
 
         canvas.style.width = "1280px";
-        canvas.style.height = "700px";
+        canvas.style.height = "720px";
       }
 
-      canvas.style.background = "url('" + buildUrl + "/Sudoku.jpg') center / cover";
+      canvas.style.background = "url('" + buildUrl + "/sudoku_test.jpg') center / cover";
       loadingBar.style.display = "block";
 
       var script = document.createElement("script");
